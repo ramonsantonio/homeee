@@ -226,6 +226,11 @@ body {
     border-radius: 15px;
 }
 
+.china-img img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 60px rgba(44,89,173,0.2);
+}
+
 .china-titulo h2 {
     color: white;
     font-size: 2.5rem;
@@ -281,12 +286,24 @@ body {
     width: 250px;
 }
 
+.guiton img:hover {
+    transform: translateY(-5px);
+}
+
 .rack img {
     width: 200px;
 }
 
+.rack img:hover {
+    transform: translateY(-5px);
+}
+
 .soima img {
     width: 250px;
+}
+
+.soima img:hover {
+    transform: translateY(-5px);
 }
 
 
