@@ -148,6 +148,118 @@ body {
 }
 
 
+/*Agente*/
+.agente {
+    padding: 40px 4px;
+    text-align: center;
+}
+
+.agente-sub {
+    margin: 20px;
+}
+
+.agente-img img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+
+/*Cestas*/
+
+.cestas {
+    padding: 60px 4px;
+    background-color: #2C59AD;
+}
+
+.cestas .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cestas-titulo {
+    color: white;
+    font-size: 2.0rem;
+}
+
+.cestas-sub {
+    color: white;
+}
+
+.cestas-img img {
+    width: 400px;
+    border-radius: 15px
+}
+
+
+/*Gruas*/
+
+
+.gruas {
+    padding: 60px 4px;
+    background-color: #2C59AD;
+}
+
+.gruas .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gruas-img img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.gruas-titulos {
+    color: white;
+    font-size: 2.0rem;
+}
+
+.gruas-sub {
+    color: white;
+}
+
+/*Elevador*/
+
+.elevador {
+    padding: 60px 4px;
+}
+
+.elevador .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.elevador-titulo {
+    font-size: 2.0rem;
+}
+
+.elevador-img img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*Nosso*/
+
+.nosso {
+    padding: 60px 4px;
+}
+
+.nosso .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nosso-img img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.nosso-titulo {
+    font-size: 2.0rem;
+}
+
+
+
 
 
 
@@ -225,29 +337,67 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .china {
-        padding: 40px 4px;
-        text-align: center;
+    .agente-titulo {
+        font-size: 1.5rem;
     }
 
-    .china-img img {
+    .agente-sub {
+        font-size: 0.9rem;
+    }
+
+    .agente-img img {
         width: 350px;
     }
 
-    .china .flex {
+    .cestas {
+        text-align: center;
+    }
+
+    .cestas .flex {
+        display: block;
+        gap: 20px;
+    }
+
+    .cestas-sub {
+        margin-bottom: 20px;
+    }
+
+    .gruas {
+        text-align: center;
+    }
+
+    .gruas-sub {
+        margin-bottom: 20px;
+    }
+
+    .gruas .flex {
+        flex-direction: column-reverse;
+    }
+
+    .elevador {
+        text-align: center;
+    }
+
+    .elevador-sub {
+        margin-bottom: 20px;
+    }
+
+    .elevador .flex {
         display: block;
     }
 
-    .oficial {
-        text-align: center;  
-        gap: 10px; 
+    .nosso {
+        text-align: center;
     }
 
-    .oficial .flex {
-        display: block;
-        align-items: center;
+    .nosso-sub {
+        margin-bottom: 20px;
     }
 
+    .nosso .flex {
+        flex-direction: column-reverse;
+    }
+    
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
