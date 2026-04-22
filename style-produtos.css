@@ -118,10 +118,117 @@ body {
 }
 
 
+/*Servicos*/
+
+.servico {
+    background: linear-gradient(rgba(44,89,173,0.9), rgba(44,89,173,0.9)), 
+         url('img/servico.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    margin-top: 70px;
+}
+
+.servico-titulo {
+    font-size: 3.5rem;
+}
+
+/*Prud*/
+
+.prod {
+    padding: 100px 0;
+    background: var(--light-gray);
+}
+
+.prod-h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.prod-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.prod-cartao {
+    background: var(--white);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prod-cartao:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(44,89,173,0.2);
+}
+
+.prod-cartao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 
 
+/*revenda*/
 
+.revenda {
+    padding: 50px 60px;
+    background:linear-gradient(#2C59AD), url('img/guiton.png');
+}
 
+.revenda-h2 {
+    font-size: 2.0rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.revenda .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opc1, .opc2 {
+    color: white;
+}
+
+.revenda-p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*prazo*/
+
+.prazo {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.prazo .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prazo-cartao img {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.prazo-titulo {
+    text-align: center;
+}
 
 
 /* Footer */
