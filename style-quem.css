@@ -118,6 +118,63 @@ body {
 }
 
 
+/*quem*/
+
+.quem {
+    padding: 80px 20px;
+}
+
+.quem .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quem-img img {
+    width: 340px;
+    border-radius: 15px;
+}
+
+/*visao*/
+
+.visao {
+    background-color: #2C59AD;
+    padding: 80px 20px;
+}
+
+.visao-h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.visao-p {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.visao .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.visao .conteudo {
+    text-align: center;
+}
+
+.cartao-img img {
+    width: 70px;
+}
+
+.visao-titulo {
+    color: white;
+}
+
+.visao-sub {
+    color: white;
+}
+
 
 
 
