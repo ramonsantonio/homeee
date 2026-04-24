@@ -118,10 +118,122 @@ body {
 }
 
 
+/*Missao*/
+
+.missao {
+    background: linear-gradient(rgba(44,89,173,0.9), rgba(44,89,173,0.9)), 
+                url('img/brasilechina.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    margin-top: 70px;
+}
+
+.missao-titulo {
+    font-size: 3.0rem;
+}
+
+/*polo*/
+
+.polo {
+    padding: 60px 20px;
+}
+
+.polo .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.polo-titulo {
+    margin-bottom: 10px;
+}
+
+.polo-img img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*porque*/
+
+.porque {
+    padding: 60px 20px;
+}
+
+.porque .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.porque-img img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.porque-titulo {
+    margin-bottom: 10px;
+}
 
 
+/*global*/
+
+.global {
+    padding: 60px 20px;
+    background-color: #2C59AD;
+}
+
+.global-h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.global-p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.global .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.global .cartao-img img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.global-sub {
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
 
 
+/*mercado*/
+
+.mercado {
+    padding: 60px 30px;
+}
+
+.mercado .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mercado-titulo {
+    margin-bottom: 20px;
+}
+
+.mercado-img img {
+    width: 400px;
+    border-radius: 15px;
+}
 
 
 /* Footer */
