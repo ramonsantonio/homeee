@@ -129,6 +129,10 @@ body {
     justify-content: space-evenly;
 }
 
+.quem-titulo {
+    font-size: 2.5rem;
+}
+
 .quem-img img {
     width: 340px;
     border-radius: 15px;
@@ -176,10 +180,30 @@ body {
 }
 
 
+/*diretor*/
+.diretor {
+    padding: 80px 20px;
+}
 
+.diretor h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
 
+.diretor .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.diretor-titulo {
+    font-size: 2.0rem;
+}
 
+.diretor-img img {
+    width: 300px;
+    border-radius: 15px;
+}
 
 /* Footer */
 footer {
