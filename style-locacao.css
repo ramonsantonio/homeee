@@ -117,7 +117,143 @@ body {
     transition: 0.3s;
 }
 
+/*munck*/
+.munck {
+    padding: 80px 20px;
+}
 
+.munck .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.munck-titulo {
+    margin-bottom: 5px;
+}
+
+
+.munck-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+/*gui*/
+.gui {
+    padding: 80px 20px;
+}
+
+.gui .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gui-titulo {
+    margin-bottom: 5px;
+}
+
+
+.gui-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/*loca*/
+.loca {
+    padding: 80px 20px;
+}
+
+.loca .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loca-titulo {
+    margin-bottom: 5px;
+}
+
+
+.loca-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/*cesto*/
+.cesto {
+    padding: 80px 20px;
+    background-color: #2C59AD;
+    color: white;
+}
+
+.cesto .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cesto-titulo {
+    margin-bottom: 5px;
+}
+
+
+.cesto-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/*forma*/
+.forma {
+    padding: 80px 20px;
+    background-color: #2C59AD;
+    color: white;
+}
+
+.forma .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forma-titulo {
+    margin-bottom: 5px;
+}
+
+
+.forma-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/*gera*/
+.gera {
+    padding: 80px 20px;
+    background-color: #2C59AD;
+    color: white;
+}
+
+.gera .flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gera-titulo {
+    margin-bottom: 5px;
+}
+
+
+.gera-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
 
 
 
