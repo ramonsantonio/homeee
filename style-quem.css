@@ -130,6 +130,7 @@ body {
 }
 
 .quem-titulo {
+    color: #17255a;
     font-size: 2.5rem;
 }
 
@@ -186,6 +187,7 @@ body {
 }
 
 .diretor h2 {
+    color: #17255a;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
@@ -197,6 +199,7 @@ body {
 }
 
 .diretor-titulo {
+    color: #17255a;
     font-size: 2.0rem;
 }
 

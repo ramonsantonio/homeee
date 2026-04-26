@@ -154,6 +154,10 @@ body {
     text-align: center;
 }
 
+.agente-titulo {
+    color: #17255a;
+}
+
 .agente-sub {
     margin: 20px;
 }
@@ -230,6 +234,7 @@ body {
 }
 
 .elevador-titulo {
+    color: #17255a;
     font-size: 2.0rem;
 }
 
@@ -255,6 +260,7 @@ body {
 }
 
 .nosso-titulo {
+    color: #17255a;
     font-size: 2.0rem;
 }
 
