@@ -368,6 +368,10 @@ footer {
         margin-bottom: 20px;
     }
 
+    .cestas-img img {
+        width: 350px;
+    }
+
     .gruas {
         text-align: center;
     }
@@ -378,6 +382,10 @@ footer {
 
     .gruas .flex {
         flex-direction: column-reverse;
+    }
+
+    .gruas-img img {
+        width: 350px;
     }
 
     .elevador {
@@ -392,6 +400,10 @@ footer {
         display: block;
     }
 
+    .elevador-img img {
+        width: 350px;
+    }
+
     .nosso {
         text-align: center;
     }
@@ -402,6 +414,10 @@ footer {
 
     .nosso .flex {
         flex-direction: column-reverse;
+    }
+
+    .nosso-img img {
+        width: 350px;
     }
     
     .footer-content {
