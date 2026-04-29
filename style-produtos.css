@@ -143,6 +143,7 @@ body {
 /*tipo*/
 .tipo {
     padding: 80px 20px;
+    text-align: center;
 }
 
 .tipo2 {
@@ -159,20 +160,13 @@ body {
 .tipo-img img {
     width: 250px;
     border-radius: 15px;
+    
 }
 
 .tipo-titulo {
     text-align: center;
     margin-bottom: 60px;
 }
-
-
-.tipo-img:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 60px rgba(44,89,173,0.2);
-}
-
-
 
 /*revenda*/
 
@@ -301,17 +295,24 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .china {
-        padding: 40px 4px;
-        text-align: center;
-    }
-
-    .china-img img {
-        width: 350px;
-    }
-
-    .china .flex {
+    .tipo .flex {
         display: block;
+    }
+
+    .tipo-cartao .tipo-img img {
+        align-items: center;
+    }
+
+    .revenda .flex {
+        display: block;
+    }
+
+    .prazo .flex {
+        display: block;
+    }
+
+    .prazo-sub {
+        margin-bottom: 50px;
     }
 
     .oficial {
