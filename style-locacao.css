@@ -359,17 +359,10 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .china {
-        padding: 40px 4px;
-        text-align: center;
-    }
-
-    .china-img img {
-        width: 350px;
-    }
-
-    .china .flex {
-        display: block;
+    .flex {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
     }
 
     .oficial {
