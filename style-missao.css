@@ -313,17 +313,34 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .china {
-        padding: 40px 4px;
+    .polo .flex {
+        display: block;
         text-align: center;
     }
 
-    .china-img img {
-        width: 350px;
+    .porque .flex {
+        flex-direction: column-reverse;
     }
 
-    .china .flex {
+    .porque-titulo {
+        text-align: center;
+    }
+
+    .global .flex {
         display: block;
+        text-align: center;
+    }
+
+    .global-sub {
+        margin-bottom: 40px;
+    }
+
+    .mercado .flex {
+        flex-direction: column-reverse;
+    }
+
+    .mercado-titulo {
+        text-align: center;
     }
 
     .oficial {
