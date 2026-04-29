@@ -153,6 +153,12 @@ body {
     margin-bottom: 10px;
 }
 
+.visao-pp {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .visao-p {
     color: white;
     text-align: center;
@@ -282,17 +288,36 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .china {
-        padding: 40px 4px;
+    .quem .flex {
+        display: block;
+    }
+
+    .quem {
         text-align: center;
     }
 
-    .china-img img {
-        width: 350px;
+    .quem-sub {
+        text-align: left;
     }
 
-    .china .flex {
+    .visao .flex {
         display: block;
+    } 
+
+    .visao-sub {
+        margin-bottom: 50px;
+    }
+
+    .diretor .flex {
+        flex-direction: column-reverse;
+    }
+
+    .diretor { 
+        text-align: center;
+    }
+
+    .diretor-sub {
+        text-align: left;
     }
 
     .oficial {
