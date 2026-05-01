@@ -118,7 +118,7 @@ body {
 }
 
 .loc {
-    background: linear-gradient(rgba(44,89,173,0.9), rgba(44,89,173,0.9)), 
+    background: linear-gradient(rgba(44, 89, 173, 0.295), rgba(44,89,173,0.9)), 
                 url('img/locação.jpg');
     background-size: cover;
     background-position: center;
