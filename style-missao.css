@@ -239,31 +239,6 @@ body {
 }
 
 
-/*direta*/
-
-.direta {
-    padding: 40px 4px;
-}
-
-.direta .flex {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.direta-h2 {
-    color: #17255a;
-    margin: 50px;
-    text-align: center;
-}
-
-.direta-img img {
-    width: 350px;
-    border-radius: 15px;
-}
-
-.direta-sub {
-    text-align: center;
-}
 
 /* Footer */
 footer {
@@ -367,18 +342,6 @@ footer {
 
     .mercado-titulo {
         text-align: center;
-    }
-
-    .direta {
-        text-align: center;
-    }
-
-    .direta .flex {
-        flex-direction: column-reverse;
-    }
-
-    .direta-sub {
-        margin-bottom: 50px;
     }
 
     .oficial {
