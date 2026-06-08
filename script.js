@@ -1,4 +1,6 @@
 // Traduções
+
+/*
 const translations = {
     'pt-BR': {
         'hero-title': 'Gestão & Negócios Globais',
@@ -43,6 +45,9 @@ const translations = {
         'footer-contact': 'Contacto'
     }
 };
+
+*/
+
 
 // Função para trocar idioma
 function changeLanguage(lang) {
